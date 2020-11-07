@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: blue;
+        text-align: center;
+    }
+    h1{
+        color: white;
+        background-color: black;
+        width: 100px;
+        display: inline-block;
+    }
+    h2{
+        font-size: 50px;
+        color: white;
+    }
+    button{
+        width: 5%;
+    }
+</style>
+<body>
+    <h2>Stop Watch</h2>
+    <div>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="miliSec">0</h1>
+    </div>
+    <div>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
